@@ -1,0 +1,63 @@
+officer-overlay{
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    background-color: rgba(14, 92, 180, 0.911);
+    left:0px;
+    top:0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px !important;
+    
+}
+
+officer-overlay officer-model{
+    width:60%;
+    height:60%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px 10px 0 0;
+    filter:drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    border: 1px solid  rgb(18, 101, 185);
+    
+}
+
+officer-model .header{
+    background-color: rgb(18, 101, 185);
+    /* height:40px; */
+    display:flex;
+    color:white;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+    padding-right:12px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid  rgb(18, 101, 185);
+
+}
+
+officer-model .header span:hover{
+    color:chartreuse;
+    cursor: pointer;
+}
+
+officer-model .modelContent > *{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.officer, a{
+    cursor:pointer;
+    text-decoration: underline;
+    color: rgb(18, 101, 185);
+}
+
+.hidden{
+    display:none;
+    transition-property: display;
+    transition-duration: 1s;
+}

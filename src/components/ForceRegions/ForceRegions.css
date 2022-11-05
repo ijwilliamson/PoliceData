@@ -1,0 +1,57 @@
+.regions{
+   
+    width:50%;
+    max-height: calc(100%);
+}
+
+.regions ul{
+    display:flex;
+    flex-direction: column;
+    padding:0px;
+    margin:20px;
+    overflow-y: auto;
+    max-height: calc(100% - 140px);
+}
+
+
+
+.regions li{
+    padding: 0px;
+    display: block;
+    margin:0px;
+    padding-left:10px;
+    margin-left:-10px;
+
+}
+
+.regions li:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.regions h1{
+    margin:20px;
+    display:div;
+    color: black;
+    border-bottom: 1px solid grey;
+    text-transform: capitalize;
+}
+
+.regions h2{
+    text-align: left;
+    margin-left:20px;
+    margin-top:-10px;
+    font-size: 18px;
+}
+
+officer-model .modelContent{
+    width:100%;
+    height:100%;
+    background-color: aqua;
+}
+
+officer-model .modelContent #map{
+    width:100%;
+    height:100%;
+    margin-left:0px;
+}

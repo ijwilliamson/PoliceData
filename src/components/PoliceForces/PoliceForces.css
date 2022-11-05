@@ -1,0 +1,16 @@
+.forcesList{
+    display:flex;
+    flex-direction: column;
+}
+
+.forcesList li{
+    display: block;
+
+}
+
+.forcesList li:hover{
+    background-color: rgb(168, 181, 204);
+    color:white;
+    cursor: pointer;
+}
+
