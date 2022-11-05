@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PoliceData/static/css/main.e8bca711.css",
+    "main.js": "/PoliceData/static/js/main.f3dff8ee.js",
+    "index.html": "/PoliceData/index.html",
+    "main.e8bca711.css.map": "/PoliceData/static/css/main.e8bca711.css.map",
+    "main.f3dff8ee.js.map": "/PoliceData/static/js/main.f3dff8ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8bca711.css",
+    "static/js/main.f3dff8ee.js"
+  ]
+}
